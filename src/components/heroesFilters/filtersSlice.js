@@ -12,7 +12,7 @@ export const fetchFilters = createAsyncThunk(
     'filters/fetchFilters',
     async () => {
         const {request} = useHttp();
-        return await request("http://localhost:3001/filters");
+        return await request("https://62db8cfed1d97b9e0c508f14.mockapi.io/filters");
     }
 );
 
